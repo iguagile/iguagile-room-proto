@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package = "./";
+
 service RoomService {
     rpc CreateRoom (CreateRoomRequest) returns (CreateRoomResponse);
 }
